@@ -16,7 +16,6 @@ const Button:React.FC<ButtonProps> = ({
   return <ButtonAria 
   className=""
   >
-    
     {Icon && <Icon />}
     <span>{label}</span>
   </ButtonAria>;
